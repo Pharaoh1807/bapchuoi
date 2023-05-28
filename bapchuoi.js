@@ -70,6 +70,6 @@ app.use('/api/accounts/', router)
 // app.use('/', router)
 
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
   console.log(`ket noi oke`)
 })
